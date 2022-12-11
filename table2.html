@@ -5,8 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RowSpan & Colspan</title>
+    <style>
+        table {
+            border: 2px solid black;
+            text-align: center;
+            border-collapse: collapse;
+            width: 300px;
+            height: 200px;
+        }
+        th,td{
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
-    
+    <table>
+        <caption> RowSpan and Colspan</caption>
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th colSpan="2">Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <>
+                <td>101</td>
+                <td>Jabed</td>
+                <td>3.56</td>
+                <td>017</td>
+                <td rowspan="2">018</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Jamee</td>
+                <td>3.50</td>
+                <td>013</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Jahid</td>
+                <td>3.50</td>
+                <td>014</td>
+                <td>015</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Raihan</td>
+                <td>3.50</td>
+                <td>016</td>
+                <td>019</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
