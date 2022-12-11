@@ -1,0 +1,9 @@
+.container{
+    border: 5px solid aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.logout{
+    margin-left: auto;
+}
